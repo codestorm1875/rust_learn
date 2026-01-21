@@ -5,7 +5,7 @@ use rand::Rng;
 fn main() {
     println!("Guess the number!");
 
-    let secret_number = rand::rng().random_range(1..=100);
+    let secret_number: u32 = rand::rng().random_range(1..=100);
 
     loop {
         println!("Please input your guess.");
