@@ -21,7 +21,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => {
                 println!("Invalid input, please enter a number");
-                continue;
+                continue; 
             }
         };
 
